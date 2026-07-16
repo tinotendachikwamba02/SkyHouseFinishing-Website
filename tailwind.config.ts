@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         navy: '#0D2B52',
-        gold: '#C9A227',
+        gold: '#f59e0b',
         ink: '#2D2D2D',
         muted: '#6B7280',
         canvas: '#F8F9FA',
