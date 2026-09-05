@@ -20,7 +20,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
-  color: #2D2D2D;
+  color: #191A1E;
   background-color: #FFFFFF;
 }
 
@@ -29,6 +29,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ::selection {
-  background: #C9A227;
-  color: #0D2B52;
+  background: #2D67F1;
+  color: #FFFFFF;
+}
+
+input,
+select,
+textarea {
+  accent-color: #2D67F1;
 }

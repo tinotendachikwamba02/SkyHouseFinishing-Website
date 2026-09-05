@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { WhatsAppButton } from '../components/whatsapp-button';
 
 export const metadata: Metadata = {
   title: 'Sky House Finishing | Premium Finishing Solutions Cape Town',
+  icons: { icon: '/favicon.svg' },
   description:
     'Sky House Finishing delivers premium painting, solar, electrical, tiling, welding and waterproofing services across Cape Town with precision and professionalism.',
   keywords: [
@@ -33,7 +35,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <WhatsAppButton />
+      </body>
     </html>
   );
 }
