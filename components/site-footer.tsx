@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Clock3, Mail, MapPin, MessageCircle, Phone } from 'lucide-react';
+import { Clock3, MapPin, MessageCircle, Phone } from 'lucide-react';
 import { SocialLinks } from './social-links';
 
 export function SiteFooter() {
@@ -22,8 +22,7 @@ export function SiteFooter() {
         <div>
           <h2 className="text-sm font-bold uppercase tracking-[0.18em] text-white">Contact</h2>
           <div className="mt-4 grid gap-3 text-sm">
-            <a className="flex items-center gap-2" href="tel:+27628567694"><Phone className="h-4 w-4 text-sky" />062 856 7694</a>
-            <a className="flex items-center gap-2" href="mailto:info@skyhousefinishing.co.za"><Mail className="h-4 w-4 text-sky" />info@skyhousefinishing.co.za</a>
+            <a className="flex items-center gap-2" href="tel:+27628567694"><Phone className="h-4 w-4 text-sky" />+27 62 856 7694</a>
             <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-sky" />Milnerton, Cape Town</span>
             <span className="flex items-center gap-2"><Clock3 className="h-4 w-4 text-sky" />Mon-Sat: 08:00-18:00</span>
             <a className="flex items-center gap-2" href="https://wa.me/27628567694" target="_blank" rel="noopener noreferrer"><MessageCircle className="h-4 w-4 text-sky" />WhatsApp</a>
