@@ -11,7 +11,7 @@ function TiktokIcon(props: SVGProps<SVGSVGElement>) {
 }
 
 export const socialLinks = [
-  { name: 'Facebook', href: 'https://www.facebook.com/skyhousefinishing', icon: Facebook },
+  { name: 'Facebook', href: 'https://www.facebook.com/share/1RbJmwvcEa/?mibextid=wwXIfr', icon: Facebook },
   { name: 'Instagram', href: 'https://www.instagram.com/skyhousefinishing/', icon: Instagram },
   { name: 'LinkedIn', href: 'https://www.linkedin.com/company/skyhousefinishing', icon: Linkedin },
   { name: 'TikTok', href: 'https://www.tiktok.com/@skyhousefinishing', icon: TiktokIcon },

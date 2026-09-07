@@ -17,7 +17,7 @@ export function SiteFooter() {
         </div>
         <div>
           <h2 className="text-sm font-bold uppercase tracking-[0.18em] text-white">Services</h2>
-          <div className="mt-4 grid gap-2 text-sm"><span>Painting</span><span>Solar installations</span><span>Electrical work</span><span>Tiling, welding & waterproofing</span></div>
+          <div className="mt-4 grid gap-2 text-sm"><Link href="/services#painting" className="cursor-pointer transition-colors hover:text-blue-400">Painting</Link><Link href="/services#solar" className="cursor-pointer transition-colors hover:text-blue-400">Solar installations</Link><Link href="/services#electrical" className="cursor-pointer transition-colors hover:text-blue-400">Electrical work</Link><Link href="/services#tiling-waterproofing" className="cursor-pointer transition-colors hover:text-blue-400">Tiling, welding &amp; waterproofing</Link></div>
         </div>
         <div>
           <h2 className="text-sm font-bold uppercase tracking-[0.18em] text-white">Contact</h2>
