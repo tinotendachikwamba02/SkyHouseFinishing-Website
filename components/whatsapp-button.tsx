@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const WHATSAPP_URL = 'https://wa.me/27628567694?text=Hi%20Sky%20House%20Finishing%2C%20I%20would%20like%20to%20request%20a%20quote';
+const WHATSAPP_URL = 'https://wa.me/27628567694?text=Hi%20Sky%20House%20Finishing!%20I%20would%20like%20to%20get%20more%20information%20about%20your%20services.';
 
 function WhatsAppIcon() {
   return (
@@ -24,7 +24,7 @@ export function WhatsAppButton() {
     >
       {hovered && (
         <span className="rounded-lg bg-navy px-4 py-2 text-sm font-semibold text-white shadow-lg">
-          Need a quick quote? Talk to us on WhatsApp
+          Need help? Chat with us on WhatsApp
         </span>
       )}
       <a

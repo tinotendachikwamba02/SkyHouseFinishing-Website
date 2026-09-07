@@ -39,7 +39,7 @@ export function SiteHeader() {
           </div>
           <Link href={navigation[3].href} className="transition hover:text-sky">{navigation[3].label}</Link>
         </nav>
-        <a href="https://wa.me/27628567694" target="_blank" rel="noopener noreferrer" className="hidden rounded-lg bg-sky px-4 py-2 text-sm font-semibold text-white transition hover:bg-navy md:inline-flex">Request a Quote</a>
+        <a href="https://wa.me/27628567694?text=Hi%20Sky%20House%20Finishing!%20I%20would%20like%20to%20get%20more%20information%20about%20your%20services." target="_blank" rel="noopener noreferrer" className="hidden rounded-lg bg-sky px-4 py-2 text-sm font-semibold text-white transition hover:bg-navy md:inline-flex">Request a Quote</a>
         <button type="button" onClick={() => setMenuOpen((open) => !open)} className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-sky/30 text-navy md:hidden" aria-label="Toggle navigation" aria-expanded={menuOpen}>
           {menuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>

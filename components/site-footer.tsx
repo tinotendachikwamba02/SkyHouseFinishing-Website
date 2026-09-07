@@ -25,7 +25,7 @@ export function SiteFooter() {
             <a className="flex items-center gap-2" href="tel:+27628567694"><Phone className="h-4 w-4 text-sky" />+27 62 856 7694</a>
             <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-sky" />Milnerton, Cape Town</span>
             <span className="flex items-center gap-2"><Clock3 className="h-4 w-4 text-sky" />Mon-Sat: 08:00-18:00</span>
-            <a className="flex items-center gap-2" href="https://wa.me/27628567694" target="_blank" rel="noopener noreferrer"><MessageCircle className="h-4 w-4 text-sky" />WhatsApp</a>
+            <a className="flex items-center gap-2" href="https://wa.me/27628567694?text=Hi%20Sky%20House%20Finishing!%20I%20would%20like%20to%20get%20more%20information%20about%20your%20services." target="_blank" rel="noopener noreferrer"><MessageCircle className="h-4 w-4 text-sky" />WhatsApp</a>
           </div>
         </div>
       </div>
